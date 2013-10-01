@@ -1,28 +1,48 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
 
-#container
-{
-    max-width:610px;
-    margin:auto;
-    background-color:#51473d;
-    border:1px solid #51473d;
+#container {
+width: 600px;
+margin: auto;
+background-color: #51473d;
 }
-
-#topbar
-{
-    text-align:right;
-    font-family: verdana;
-    font-size:0.65em;
+#topbar {
+text-align: right;
+font-family: Verdana;
+font-size: 0.70em;
+height: 220px;
+float: left;
+width: 600px;
+background-color: #51473d;
+background-image: url(pics/coffey.jpg);
+background-repeat: no-repeat;
+background-position: 1px 14px;
+color: #eae7d2;
+}
+a {
+display: none;
+}
+#menu ul{
+    list-style: none;
+    height: 30px;
+    margin: 5px -30px 5px -30px;
+    }
+#menu li{
+    text-align:center;
+    position:relative;
     float:left;
-    width:600px;
-    height:215px;
-    margin:auto;
-    background-color:#51473d;
-    background-image:url(pics/coffey.jpg);
-    background-repeat:no-repeat;
-    background-position:15px;
-    color:#eae7d2;
-    font-style: inherit;
-
 }
-
+#menu .active a {
+color: #888076;
+background: #eae7d2;
+}
+#menu ul li a {
+display: block;
+font-family: Verdana;
+text-decoration: none;
+font-size: 14px;
+color: #eae7d2;
+margin-left: 1px;
+text-transform: capitalize;
+background-color: #797066;
+padding:9px 15px 9px 15px;
+}
