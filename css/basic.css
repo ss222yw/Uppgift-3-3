@@ -1,1 +1,11 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+#container
+{
+    max-width:610px;
+    margin:auto;
+    background-color:#51473d;
+    border:1px solid #51473d;
+}
+
+
