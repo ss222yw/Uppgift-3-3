@@ -9,18 +9,20 @@ background-color: #51473d;
 text-align: right;
 font-family: Verdana;
 font-size: 0.70em;
-height: 220px;
+height: 210px;
 float: left;
 width: 600px;
 background-color: #51473d;
 background-image: url(pics/coffey.jpg);
 background-repeat: no-repeat;
-background-position: 1px 14px;
+background-position: 1px 16px;
 color: #eae7d2;
 }
-a {
+#menu a {
 display: none;
 }
+#menu{display: inline-block;
+height:33px;}
 #menu ul{
     list-style: none;
     height: 30px;
@@ -45,4 +47,76 @@ margin-left: 1px;
 text-transform: capitalize;
 background-color: #797066;
 padding:9px 15px 9px 15px;
+}
+#menu a:hover
+{ 
+background-color:#968C83;
+}
+
+#content {
+background: #eae7d2;
+font-family: Verdana;
+font-size: 0.8em;
+color: #797066;
+text-align: left;
+line-height: 20px;
+border:1px solid gray;
+padding:10px;
+}
+
+#maincontent {
+float: left;
+width: 350px;
+border-right: 1px dashed gray;
+margin-right: 8px;
+padding: 6px;
+}
+#maincontent h1 {
+font-family: "Times New Roman";
+font-weight: lighter;
+font-size: 2em;
+color: #797066;
+}
+img {
+float: left;
+padding-right:5px;
+}
+#subcontent {
+padding-top: 17px;
+margin: auto;
+font-size: 0.8em;
+}
+#subcontent h1 {
+font-family: "Times New Roman";
+font-weight: bold;
+color: #797066;
+font-size: 1.4em;
+}
+h2 {
+font-weight:100;
+color:black;
+font-size:1.1em;
+}
+
+#subcontent ul li {
+list-style: none;
+}
+#subcontent ul li a {
+color: #51473d;
+font-size: 1.5em;
+}
+#subcontent ul {
+margin: -1px;
+font-size: 0.8em;
+}
+#subcontent {
+padding-top: 17px;
+font-size: 0.8em;
+}
+
+#bottomcontent {
+font-size: 0.8em;
+font-style: italic;
+width: 500px;
+overflow: auto;
 }
